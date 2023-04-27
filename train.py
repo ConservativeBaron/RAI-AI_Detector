@@ -64,7 +64,7 @@ def classify_input(model, tokenizer):
         user_input = input('Enter a text string to classify (or "exit" to quit): ')
 
         if user_input.lower() == 'exit':
-            break
+            exit()
 
         if user_input.lower() == '':
             continue
