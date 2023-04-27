@@ -1,3 +1,8 @@
+"""
+Training module for AI text detection
+
+Author: Keratin
+"""
 import pandas as pd
 import tensorflow as tf
 from tensorflow.keras.layers import Input, Embedding, Conv1D, MaxPooling1D, Flatten, Dense
